@@ -3817,3 +3817,109 @@ NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be rem
 SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.001000s ]
 SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 're' ) LIMIT 1   [ RunTime:0.001000s ]
 
+[ 2017-02-25T22:31:34+08:00 ] ::1 /mkblog/Admin/Login/doRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.004647s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `email` = '18809843846@163.com' ) LIMIT 1   [ RunTime:0.000308s ]
+ERR: 非法数据对象！:[realName=>王凯亮]
+
+[ 2017-02-25T22:31:56+08:00 ] ::1 /mkblog/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.005492s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000695s ]
+
+[ 2017-02-25T22:34:13+08:00 ] ::1 /mkblog/Admin/Login/doRegister
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.001340s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000493s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `email` = '18809843846@163.com' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: INSERT INTO `blog_accounts` (`name`,`password`,`realName`,`sex`,`age`,`email`) VALUES ('kelly','29d43383a9c6c8533a29f3c8df8f1f62','王凯亮',0,18,'18809843846@163.com') [ RunTime:0.000611s ]
+
+[ 2017-02-25T22:34:13+08:00 ] ::1 /mkblog/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.004877s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000465s ]
+
+[ 2017-02-25T22:56:17+08:00 ] ::1 /mkblog/admin/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+ERR: 无法加载控制器:DoLogin
+
+[ 2017-02-25T22:56:19+08:00 ] ::1 /mkblog/admin/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载控制器:DoLogin
+
+[ 2017-02-25T22:56:20+08:00 ] ::1 /mkblog/admin/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+ERR: 无法加载控制器:DoLogin
+
+[ 2017-02-25T22:56:20+08:00 ] ::1 /mkblog/admin/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:DoLogin
+
+[ 2017-02-25T22:56:30+08:00 ] ::1 /mkblog/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000946s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.001859s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000650s ]
+
+[ 2017-02-25T22:57:41+08:00 ] ::1 /mkblog/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001548s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.002003s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.001523s ]
+
+[ 2017-02-25T23:04:19+08:00 ] ::1 /mkblog/Admin/__PUBLIC__/Admin/assets/layouts/layout/css/themes/darkblue.min.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2017-02-25T23:04:21+08:00 ] ::1 /mkblog/Admin/__PUBLIC__/Admin/assets/layouts/layout/css/themes/blue.min.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2017-02-25T23:04:24+08:00 ] ::1 /mkblog/Admin/__PUBLIC__/Admin/assets/layouts/layout/css/themes/blue.min.css
+ERR: 无法加载控制器:__PUBLIC__
+
+[ 2017-02-25T23:09:56+08:00 ] ::1 /mkblog/Admin/page_user_profile_1.html
+ERR: 无法加载控制器:Page_user_profile_1
+
+[ 2017-02-25T23:10:16+08:00 ] ::1 /mkblog/Admin/page_general_contact.html
+ERR: 无法加载控制器:Page_general_contact
+
+[ 2017-02-25T23:22:30+08:00 ] ::1 /mkblog/Admin/page_user_profile_1.html
+ERR: 无法加载控制器:Page_user_profile_1
+
+[ 2017-02-25T23:28:29+08:00 ] ::1 /mkblog/Admin/page_user_profile_2.html
+ERR: 无法加载控制器:Page_user_profile_2
+
+[ 2017-02-25T23:31:42+08:00 ] ::1 /mkblog/Admin/page_general_search.html
+ERR: 无法加载控制器:Page_general_search
+
+[ 2017-02-25T23:32:19+08:00 ] ::1 /mkblog/Admin/page_general_invoice_2.html
+ERR: 无法加载控制器:Page_general_invoice_2
+
+[ 2017-02-25T23:35:58+08:00 ] ::1 /mkblog/Admin/page_system_404_1.html
+ERR: 无法加载控制器:Page_system_404_1
+
