@@ -71,7 +71,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <div class="form-group">
                     <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
                     <label class="control-label visible-ie8 visible-ie9">账号</label>
-                    <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="账号" name="username" /> </div>
+                    <input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="账号" name="name" /> </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">密码</label>
                     <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="密码" name="password" /> </div>
@@ -114,7 +114,7 @@ License: You must have a valid license purchased only from themeforest(the above
             </form>
             <!-- END LOGIN FORM -->
             <!-- BEGIN FORGOT PASSWORD FORM -->
-            <form class="forget-form" action="index.html" method="post">
+            <form class="forget-form">
                 <div class="form-title">
                     <span class="form-title">忘记密码?</span>
                     <span class="form-subtitle">输入你的邮箱无重置密码.</span>
@@ -128,17 +128,17 @@ License: You must have a valid license purchased only from themeforest(the above
             </form>
             <!-- END FORGOT PASSWORD FORM -->
             <!-- BEGIN REGISTRATION FORM -->
-            <form class="register-form" action="index.html" method="post">
+            <form class="register-form">
                 <div class="form-title">
                     <span class="form-title">注册</span>
                 </div>
                 <p class="hint"> 请输入个人信息: </p>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">真实姓名</label>
-                    <input class="form-control placeholder-no-fix" type="text" placeholder="真实姓名" name="fullname" /> </div>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="真实姓名" name="realName" /> </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">性别</label>
-                    <select name="age" class="form-control">
+                    <select name="sex" class="form-control">
                         <option value="0">男</option>
                         <option value="1">女</option>
                     </select>
@@ -153,7 +153,7 @@ License: You must have a valid license purchased only from themeforest(the above
                 <p class="hint"> 请输入账号信息: </p>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">账号</label>
-                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="账号" name="username" /> </div>
+                    <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="账号" name="name" /> </div>
                 <div class="form-group">
                     <label class="control-label visible-ie8 visible-ie9">密码</label>
                     <input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="密码" name="password" /> </div>

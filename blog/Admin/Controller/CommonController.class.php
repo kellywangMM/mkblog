@@ -6,12 +6,10 @@
 	*/
 	class CommonController extends Controller
 	{
-		
 		public function _initialize(){
-			$_SESSION['user'];
-			if(!isset($_SESSION['user'])){
+			if(!isset($_SESSION['Admin'])){
 				$this->redirect('Login/index');
-			};
+			}
 		}
 	}
  ?>
