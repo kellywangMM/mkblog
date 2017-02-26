@@ -81,7 +81,7 @@ class LoginController extends Controller {
     //忘记密码处理 通过邮箱找回密码
     public function doForgetPwd(){
     	//$email=I('post.email');
-    	$email="2585066053@qq.com";
+    	$email="1104935178@qq.com";
     	$pattern = "/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i";
     	if(!preg_match($pattern,$email)){
     		$this->error('请输入合法的邮箱!');
