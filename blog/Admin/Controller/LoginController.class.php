@@ -35,10 +35,6 @@ class LoginController extends Controller {
     			$this->ajaxReturn($res);
 		}
     }
-    //忘记密码处理
-    public function doForgetPwd(){
-
-    }
     //注册处理
     public function doRegister(){
     	$accounts=D('accounts');
@@ -81,6 +77,22 @@ class LoginController extends Controller {
     	//输入的密码md5加密,从索引为8取出10位
     	$next=substr(md5($str),8,10);
     	return md5($prev.$next);
+    }
+    //忘记密码处理 通过邮箱找回密码
+    public function doForgetPwd(){
+    	//$email=I('post.email');
+    	$email="2585066053@qq.com";
+    	$pattern = "/^([0-9A-Za-z\\-_\\.]+)@([0-9a-z]+\\.[a-z]{2,3}(\\.[a-z]{2})?)$/i";
+    	if(!preg_match($pattern,$email)){
+    		$this->error('请输入合法的邮箱!');
+    		exit;
+    	}
+    	$person=$accounts=D('accounts')->where(array('email'=>$email))->find();
+    	if(!$person){
+    		$this->error('邮箱未注册!');
+    		exit;
+    	}
+        sendMail($email, '小妞','123');
     }
     public function verifyCode(){
 
