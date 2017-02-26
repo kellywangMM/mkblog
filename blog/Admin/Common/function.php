@@ -5,6 +5,7 @@
 function sendMail($to, $subject, $content) {
     vendor('PHPMailer.class#phpmailer');
     $mail = new PHPMailer();
+    $mail->SetLanguage("en", 'includes/phpMailer/language/');
     // 装配邮件服务器
     if (C('MAIL_SMTP')) {
         $mail->IsSMTP();
