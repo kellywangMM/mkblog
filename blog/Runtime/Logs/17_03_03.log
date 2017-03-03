@@ -1,0 +1,180 @@
+[ 2017-03-03T07:27:57+08:00 ] ::1 /mkblog/Admin/Login/doLogin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_accounts` [ RunTime:0.002263s ]
+SQL: SELECT * FROM `blog_accounts` WHERE ( `name` = 'kelly' ) LIMIT 1   [ RunTime:0.000557s ]
+
+[ 2017-03-03T07:28:03+08:00 ] ::1 /mkblog/Admin/Category/management
+ERR: XML标签语法错误 : $listInfo['data'] as $key=
+
+[ 2017-03-03T07:28:27+08:00 ] ::1 /mkblog/Admin/Category/management
+ERR: XML标签语法错误 : $listInfo['data'] as $category
+
+[ 2017-03-03T07:28:59+08:00 ] ::1 /mkblog/Admin/Category/management
+ERR: XML标签语法错误 : listInfo['data'] as $category
+
+[ 2017-03-03T07:30:01+08:00 ] ::1 /mkblog/Admin/Category/management
+ERR: XML标签语法错误 : name=listInfo['data'] item="$category"
+
+[ 2017-03-03T07:32:25+08:00 ] ::1 /mkblog/Admin/Category/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.000703s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000340s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT 0,5   [ RunTime:0.000458s ]
+
+[ 2017-03-03T07:33:00+08:00 ] ::1 /mkblog/Admin/Category/addCategory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.001018s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` = 'PHP' ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: INSERT INTO `blog_category` (`name`) VALUES ('PHP') [ RunTime:0.006677s ]
+
+[ 2017-03-03T07:33:17+08:00 ] ::1 /mkblog/Admin/Category/addCategory
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.000640s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` = 'JAVA' ) LIMIT 1   [ RunTime:0.000336s ]
+SQL: INSERT INTO `blog_category` (`name`) VALUES ('JAVA') [ RunTime:0.000224s ]
+
+[ 2017-03-03T07:33:29+08:00 ] ::1 /mkblog/Admin/Category/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001967s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.001239s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT 0,5   [ RunTime:0.001065s ]
+
+[ 2017-03-03T07:35:24+08:00 ] ::1 /mkblog/Admin/Category/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.000833s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT 0,5   [ RunTime:0.000422s ]
+
+[ 2017-03-03T07:35:29+08:00 ] ::1 /mkblog/Admin/Category/management/p/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.001614s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5   [ RunTime:0.006453s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000988s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2017-03-03T07:35:32+08:00 ] ::1 /mkblog/Admin/Category/management/p/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.000850s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000685s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5   [ RunTime:0.000471s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000955s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084722s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001190s ]
+
+[ 2017-03-03T07:35:34+08:00 ] ::1 /mkblog/Admin/Category/management/p/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.001311s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5   [ RunTime:0.000442s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000582s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000687s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2017-03-03T07:38:28+08:00 ] ::1 /mkblog/Admin/Category/management/p/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.000989s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5   [ RunTime:0.000329s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144836s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-03-03T07:38:33+08:00 ] ::1 /mkblog/Admin/Category/management/p/getCategories?name=%E6%8A%80%E6%9C%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp64\www\mkblog\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `blog_category` [ RunTime:0.001259s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `blog_category` LIMIT 1   [ RunTime:0.000989s ]
+SQL: SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5   [ RunTime:0.000414s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '-5,5' at line 1
+ [ SQL语句 ] : SELECT * FROM `blog_category` WHERE ( `name` LIKE '%技术%' ) ORDER BY createTime LIMIT -5,5  
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.166947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.167135s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002620s ]
+

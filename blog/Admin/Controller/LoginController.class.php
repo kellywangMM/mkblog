@@ -35,6 +35,12 @@ class LoginController extends Controller {
     			$this->ajaxReturn($res);
 		}
     }
+    //登出处理
+    public function doLogout(){
+        //清除用户session
+        $_SESSION['Admin']=null;
+        $this->redirect('Login/index');
+    }
     //注册处理
     public function doRegister(){
     	$accounts=D('accounts');
